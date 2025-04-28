@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <ul class="navbar">
+            <li class="logo"><a href="#"><img src="./images/Logo.png" alt="logo"></a></li>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </label>
+            <span class="menu">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills" id="products-menu">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>   
+            </span>
+        </ul>
+      </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="overlay"> </div>
+    <div class="white"> </div>
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Your future software partner on the run!</p>
+    </div>
+    <button> CHECK ME OUT</button>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <img src="./images/bilog na muka.png" alt="pic">
+    <div class="description">
+        <h2>About Me</h2>
+        <p>Hello! I'm Quert Russel S. Lalisan, a passionate 2nd-year IT student at Dalubhasaan ng Lungsod ng Lucena. (5'6ft) tall born in the year 2005, april 5
+         I like to draw and design stuff, learning to create efficient and beautiful websites to.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills / Expertice</h2>
+    <div class="skills-container">
+      <button class="scroll-btn left-btn" aria-label="Scroll Left">&lt;</button>
+      <div class="skills-scrollable">
+        <div class="myskills"> <img src="./images/html.png" alt=""> <div>HTML</div> </div>
+        <div class="myskills"> <img src="./images/css.png" alt=""> <div>CSS</div> </div>
+        <div class="myskills"> <img src="./images/javascript-logo-javascript-icon-transparent-free-png.webp" alt=""> <div>JavaScript</div> </div>
+        <div class="myskills"> <img src="./images/5339184.png" alt=""> <div>Responsive Web Design</div> </div>
+        <div class="myskills"> <img src="./images/canva.png" alt=""> <div>Problem Solving and Debugging</div></div>
+        <div class="myskills"> <img src="./images/laptop.png" alt=""> <div>Future Aspiration: Software Development</div></div>
+        <div class="myskills"> <img src="./images/graphic.png" alt=""> <div> Graphic Artist</div></div>
+      </div>
+      <button class="scroll-btn right-btn" aria-label="Scroll Right">&gt;</button>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-slider">
+      <button class="project-scroll-btn project-left-btn" aria-label="Scroll Left">&lt;</button>
+      <div class="slider-wrapper">
+        <div class="projects-samples">
+          <div class="projeckko">
+            <img src="./images/lori-gil.png" alt="HTML Project">
+            <p>Lori and Gil's Website</p>
+            <a href="https://github.com/ImongMama45">View</a>
+          </div>
+          <div class="projeckko" id="art">
+            <img src="./images/Art.png" alt="art" id="art">
+            <p>Art Portfolio</p>
+            <a href="https://www.instagram.com/kabutogan69/">View</a>
+          </div>
+          <div class="projeckko">
+            <img src="./images/enrollment.png" alt="HTML Project">
+            <p>My Personal Website</p>
+            <a href=" https://imongmama45.github.io/portfolio/">View</a>
+          </div>
+        </div>
+      </div>
+      <button class="project-scroll-btn project-right-btn" aria-label="Scroll Right">&gt;</button>
+    </div>
+  </section>
+  
+  
+  
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Let's work Together</h2>
+    <p class="text">If you have a website or mobile app idea in mind or you need some help design, feel free to not <a class="contact-link" href="#">contact me.</a> Currently working on my life, so the sooner you write, the better it is for both of us.</p>
+    <a href="quertrussellalisan@gmail.com" class="button">quertrussellalisan@gmail.com</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <ul class="social-links-horizontal">
+      <li class="social-links_item">
+        <a href="https://github.com/ImongMama45" class="social-links__flex">
+        <div class="icon social-links__icon">
+          <img src="images/github (1).png" alt="">
+        </div>
+        </a>
+      </li>
+      <li class="social-links_item">
+        <a href="https://www.facebook.com/KapengMalamegQvert/" class="social-links__flex">
+        <div class="icon social-links__icon">
+          <img src="images/facebook-new.png" alt="">
+        </div>
+        </a>
+      </li>
+      <li class="social-links_item">
+        <a href="https://www.instagram.com/kabutogan69/" class="social-links__flex">
+        <div class="icon social-links__icon">
+          <img src="images/instagram-new.png" alt="">
+        </div>
+        </a>
+      </li>
+    </ul>
+    <p>&copy; 2024 MyPortfolio. All rights reserved designed & coded by Quert.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
